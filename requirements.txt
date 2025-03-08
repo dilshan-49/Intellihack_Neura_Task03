@@ -1,37 +1,27 @@
-python==3.10
+# Data Handling & Utilities
+pandas
+numpy == 1.26.4
+tqdm
+
+# Evaluation & Logging
+scikit-learn
+matplotlib
 
 # Machine Learning & Fine-Tuning
 torch
 transformers
 unsloth
-axolotl
 
 # Dataset Processing
-datasets
+deepeval
 ragas
-deeval
 kiln-ai
 sentence-transformers
 
-# Quantization & Optimization
-bitsandbytes
-auto-gptq
-llama-cpp-python
-
-# Evaluation & Logging
-scikit-learn
-wandb
-matplotlib
-seaborn
 
 # Inference & API Integration
 fastapi
 gradio
-
-# Data Handling & Utilities
-pandas
-numpy
-tqdm
 
 #for UI
 streamlit
